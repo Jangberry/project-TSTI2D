@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Serveur du projet (TSTI2D sin) de Balise d'arrosage connecté",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jangberry/projet-tsti2d.git"
+  },
+  "author": "Jangberry",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jangberry/projet-tsti2d/issues"
+  },
+  "homepage": "https://github.com/jangberry/projet-tsti2d#readme"
+}
