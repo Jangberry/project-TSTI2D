@@ -4,7 +4,8 @@
   "description": "Serveur du projet (TSTI2D sin) de Balise d'arrosage connecté",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node app.js -v",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/jangberry/projet-tsti2d/issues"
   },
-  "homepage": "https://github.com/jangberry/projet-tsti2d#readme"
+  "homepage": "https://github.com/jangberry/projet-tsti2d#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  }
 }
