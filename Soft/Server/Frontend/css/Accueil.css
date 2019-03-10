@@ -1,0 +1,45 @@
+#logWindow {
+    top: 50%;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    border: black solid 3px;
+    background: aliceblue;
+}
+
+h3 {
+    text-align: center;
+}
+
+tr {
+    width: 100%;
+}
+
+td {
+    width: 50%;
+}
+
+label {
+    text-align: right;
+    display: block;
+}
+
+input[type="submit"] {
+    width: 200px;
+    position: relative;
+    display: inline-block;
+    padding: auto;
+    left: 150px;
+}
+
+.entree {
+    position: relative;
+    right: 0;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}

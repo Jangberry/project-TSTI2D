@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "node app.js -v",
-    "start": "node app.js"
+    "start": "node app.js",
+    "distribution": "sudo node app.js -d"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,11 @@
   },
   "homepage": "https://github.com/jangberry/projet-tsti2d#readme",
   "dependencies": {
+    "body-parser": "latest",
+    "cookie-parser": "^1.4.4",
     "express": "^4.16.4",
-    "morgan": "^1.9.1"
+    "express-session": "^1.15.6",
+    "morgan": "^1.9.1",
+    "randomstring": "^1.1.5"
   }
 }

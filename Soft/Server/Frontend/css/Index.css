@@ -1,0 +1,49 @@
+#menu {
+    background-color: black;
+    height: 75px;
+    position: sticky;
+}
+
+a {
+    text-decoration: none;
+    position: absolute;
+    font-size: 25px;
+    color: white;
+    top: 50%;
+    left: 50%;
+    padding: 15% 25%;
+    transform: translate(-50%, -50%);
+}
+
+div.container {
+    background-color: #000010;
+    height: inherit;
+    width: 150px;
+    display: inline-block;
+    position: relative;
+}
+
+div.container.selectionne {
+    background-color: #505050;
+}
+
+#main {
+    height: 100%;
+}
+
+table {
+    height: 100%;
+    width: 100%;
+}
+
+tr {
+    height: 100%;
+}
+
+.eau\/hum {
+    width: 37%;
+}
+
+#bat {
+    width: 25%;
+}
