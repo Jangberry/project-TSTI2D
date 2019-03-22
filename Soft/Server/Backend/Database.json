@@ -1,8 +1,11 @@
 [
   {
-    "name": "Balise1"
+    "name": "Balise 1"
   },
   {
-    "name": "Balise2"
+    "name": "Balise 2"
+  },
+  {
+    "name": "Balise N"
   }
 ]

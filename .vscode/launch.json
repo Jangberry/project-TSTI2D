@@ -8,9 +8,10 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
+            "name": "Debug",
             "program": "${workspaceFolder}/Soft\\Server\\app.js",
-            "args": ["-v"]
+            "args": ["-v"],
+            "console": "integratedTerminal"
         }
     ]
 }

@@ -1,4 +1,5 @@
 Soft/Server/node_modules/
 Soft/Server/package-lock.json
-.vscode/launch.json
 Soft/Server/.idea/
+Soft/deploy server/
+.vscode/

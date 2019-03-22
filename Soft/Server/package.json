@@ -6,7 +6,7 @@
   "scripts": {
     "test": "node app.js -v",
     "start": "node app.js",
-    "distribution": "sudo node app.js -d"
+    "distribution": "sudo node app.js"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,15 @@
     "express-session": "^1.15.6",
     "morgan": "^1.9.1",
     "randomstring": "^1.1.5"
-  }
+  },
+  "maintainers": [
+    "Jangberry"
+  ],
+  "files": [
+    "Backend/PHP-module.js",
+    "Frontend/accueil.php",
+    "Frontend/index.php",
+    "Frontend/login.php",
+    "Frontend/404.html"
+  ]
 }

@@ -10,21 +10,23 @@
 <body>
 <div id="menu">
     <?php
-    $ROOT = dirname(__DIR__);
-    $JSON_File = fopen($ROOT . "/Backend\Database.json", "r");
-    $JSON = fread($JSON_File, filesize($ROOT . "/Backend/Database.json"));
-    fclose($JSON_File);
-    $DATA = json_decode(substr($JSON, 3));
+    $ROOT = dirname(__DIR__);   // Preparation de la variable pour transformation de chemin relatif a absolu
+    $JSON_File = fopen($ROOT . "/Backend/Database.json", "r");  // Ouverture de la database
+    $JSON = fread($JSON_File, filesize($ROOT . "/Backend/Database.json"));  // Lecture de la database
+    fclose($JSON_File); // Fermeture de la database
+    $DATA = json_decode($JSON); // Transformation de chaine de caractere a Tableau d'objets PHP
+    $balise_Selectionne = 0;
     $i = 0;
-    foreach ($DATA as $balise) {
-        if (!$argv[1] == $i) {
+    foreach ($DATA as $balise) {    // Exploration du Tableau
+        if (!$argv[1] == $i) {  // Generation du code HTML dans le cas d'une balise non selectionne
             echo "<div class='container'>";
             echo "<a id='balise" . $i . "' href='/?balise=" . $i . "'>" . $balise->name . "</a>";
             echo "</div>";
-        } else {
+        } else {    // Generation du code HTML dans le cas d'une balise selsctionne
             echo "<div class='container selectionne'>";
             echo "<a id='balise" . $i . "' class='selectionne' href='/?balise=" . $i . "'>" . $balise->name . "</a>";
             echo "</div>";
+            $balise_Selectionne = $i;   // Enregistre la balise selctionne pour la coherence dans la suite de la page
         }
         $i += 1;
     }
@@ -35,6 +37,9 @@
         <tr>
             <td id="eau" class="eau/hum">
                 eau
+                <?php
+                    echo $data[$balise_Selectionne]->eau;
+                ?>
             </td>
             <td id="hum" class="eau/hum">
                 humidité
