@@ -9,7 +9,7 @@
 </head>
 <body>
 <h1>
-    Accueil
+    Balise d'arosage connecté
 </h1>
 <div id="logWindow">
     <h3>

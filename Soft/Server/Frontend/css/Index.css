@@ -23,6 +23,10 @@ div.container {
     position: relative;
 }
 
+div.container:hover {
+    background-color: #252525;
+}
+
 div.container.selectionne {
     background-color: #505050;
 }

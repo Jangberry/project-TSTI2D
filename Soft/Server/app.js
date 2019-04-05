@@ -1,4 +1,4 @@
-'use strict';
+﻿'use strict';
 
 // Chargement des modules
 
@@ -71,7 +71,7 @@ let accueil = function (req, res, next) {
 
 app.get('/', accueil)
     .get('/index*', accueil)
-    .get('/accueil.*')
+    .get('/accueil.*', accueil)
     .get('/*.php', function (req, res, next) {
         if (req.session.logged) {
             res.setHeader("Content-Type", "text/html; charset=utf-8");
