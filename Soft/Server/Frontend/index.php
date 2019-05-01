@@ -38,20 +38,21 @@
             <td id="eau" class="eau/hum">
                 eau
                 <?php
-                    echo $data[$balise_Selectionne]->eau;
+                    echo $DATA[$balise_Selectionne]->eau;
                 ?>
             </td>
             <td id="hum" class="eau/hum">
                 humidité
                 <?php
-                    echo $data[$balise_Selectionne]->hum;
+                    echo $DATA[$balise_Selectionne]->hum;
                 ?>
             </td>
             <td id="bat">
                 batterie
                 <?php
-                    echo $data[$balise_Selectionne]->bat;
+                    echo $DATA[$balise_Selectionne]->bat;
                 ?>
+                %
             </td>
         </tr>
     </table>

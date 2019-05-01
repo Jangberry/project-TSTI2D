@@ -1,11 +1,14 @@
 [
   {
-    "name": "Balise 1"
+    "name": "Balise 1",
+    "hum" : "90",
+    "bat" : "42",
+    "eau" : "65"
   },
   {
-    "name": "Balise 2"
-  },
-  {
-    "name": "Balise N"
+    "name": "Balise 2",
+    "hum" : "0",
+    "bat" : "2",
+    "eau" : "5"
   }
 ]
