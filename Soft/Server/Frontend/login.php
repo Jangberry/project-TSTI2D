@@ -10,5 +10,4 @@ if ($login == "admin" && $pass == "admin") {
     echo "success";
 }
 
-
 // TODO : meilleur systeme d'authentification

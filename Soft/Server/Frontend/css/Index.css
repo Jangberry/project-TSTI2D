@@ -3,6 +3,87 @@
     height: 75px;
     position: sticky;
 }
+td{
+    width: 100%;
+}
+
+.indicator-container {
+    height: 400px;
+}
+
+.indicator-background {
+    background: #000010;
+    -webkit-mask-repeat: no-repeat;
+    margin: auto;
+    width: 300px;
+    position: relative;
+}
+
+#icon-eau {
+    -webkit-mask-image: url("https://upload.wikimedia.org/wikipedia/commons/f/ff/Water_drop.svg");
+    -webkit-mask-repeat: no-repeat;
+    top: 10px;
+    left: 5px;
+    position: relative
+}
+
+#background-eau {
+    -webkit-mask-image: url("https://upload.wikimedia.org/wikipedia/commons/f/ff/Water_drop.svg");
+    -webkit-mask-size: 235px;
+    height: 375px;
+    top: 25px;
+}
+
+#img-eau {
+    position: relative;
+    height: 375px;
+    width: 225px;
+}
+
+#background-bat {
+    -webkit-mask-image: url("https://material.io/tools/icons/static/icons/baseline-battery_full-24px.svg");
+    -webkit-mask-size: 266px;
+    height: 245px;
+    top: 155px;
+}
+
+#icon-bat {
+    -webkit-mask-image: url("https://material.io/tools/icons/static/icons/baseline-battery_full-24px.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 256px;
+    top: 5px;
+    left: 5px;
+    position: relative;
+    height: 256px;
+    width: 256px;
+}
+
+#img-bat {
+    position: relative;
+    width: 256px;
+    background: rgba(220, 220, 249, 0.52);
+}
+
+#icon-hum {
+    -webkit-mask-image: url("https://png.pngtree.com/svg/20160608/43d9bf479d.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 360px;
+    top: 10px;
+    position: relative
+}
+
+#background-hum {
+    -webkit-mask-image: url("https://png.pngtree.com/svg/20160608/43d9bf479d.svg");
+    -webkit-mask-size: 360px;
+    height: 325px;
+    top : 75px;
+}
+
+#img-hum {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
 
 a {
     text-decoration: none;

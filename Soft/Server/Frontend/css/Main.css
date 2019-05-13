@@ -5,6 +5,13 @@ h1 {
     text-shadow: 1px 1px 5px black;
 }
 
+h2 {
+    text-align: center;
+    background: white;
+    background-size: 110%;
+}
+
 body {
     margin: 0;
+    font-size: 25px;
 }

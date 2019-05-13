@@ -115,7 +115,7 @@ app.get('/', accueil)
             if (err) {
                 next();
             } else {
-                req.session.logged = resultat.toString() === "﻿success";    // Sauvegarde dans les cookies si ma personne est identifié
+                req.session.logged = resultat.toString() === "﻿success";    // Sauvegarde dans les cookies si la personne est identifié
                 res.setHeader("Location", "/");
                 res.status(301).end();
             }

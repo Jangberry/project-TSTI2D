@@ -1,14 +1,20 @@
 [
   {
     "name": "Balise 1",
-    "hum" : "90",
-    "bat" : "42",
-    "eau" : "65"
+    "hum": "90",
+    "bat": "42",
+    "eau": "65"
   },
   {
     "name": "Balise 2",
-    "hum" : "0",
-    "bat" : "2",
-    "eau" : "5"
+    "hum": "0",
+    "bat": "2",
+    "eau": "5"
+  },
+  {
+    "name": "Balise n",
+    "hum": "100",
+    "bat": "100",
+    "eau": "100"
   }
 ]

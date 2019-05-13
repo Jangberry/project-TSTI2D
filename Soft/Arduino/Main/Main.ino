@@ -49,7 +49,7 @@ void loopEthernet()
     ether.packetLoop(ether.packetReceive());
 }
 
-void sendMessage()
+void sendInfo(char varName[], int Value)
 {
     char path[50];
     sprintf(path, "%s/%d", varName, Value);
